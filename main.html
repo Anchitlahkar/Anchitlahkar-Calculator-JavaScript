@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/style/style.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+    <title>Basic Calculator</title>
+
+</head>
+
+<body>
+    <header>
+        <H1>CALCULATOR</H1>
+    </header>
+
+    <section id="Calculator">
+        <br>
+        <input type="number" id="input-number" style="font-size: 30px;  margin-left: 50px;">
+        <br>
+        <br>
+
+        <div id=calc-actions>
+            <button type="button" id="btn-add" style="font-size: x-large;">+</button>
+            <button type="button" id="btn-subtract" style="font-size: x-large;">-</button>
+            <button type="button" id="btn-multiply" style="font-size: x-large;">*</button>
+            <button type="button" id="btn-divide" style="font-size: x-large;">/</button>
+
+            <br>
+            <br>
+        </div>
+    </section>
+
+    <section id="results">
+        <div class="value" style="">
+            <h2 id="current-calculation" style="align-self: center;font-weight: bold">0</h2>
+            <br>
+            <h2 style="display: flex; align-self: center;font-weight: bold;">Result: <span
+                    id="current-result"> 0</spanid>
+            </h2>
+        </div>
+    </section>
+</body>
+
+<script src="/assets/scripts/vendor.js"></script>
+<script src="/assets/scripts/app.js"></script>
+
+</html>
